@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="AbbottFrameWork">
+      <HintPath>..\AbbottFrameWork\bin\Debug\netstandard2.0\AbbottFrameWork.dll</HintPath>
+    </Reference>
+    <Reference Include="AbbottVO">
+      <HintPath>..\AbbottVO\bin\Debug\netstandard2.0\AbbottVO.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\bin\MySql.Data.DLL</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
